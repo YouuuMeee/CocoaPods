@@ -3,7 +3,7 @@ name: Specs
 jobs:
   specs:
     strategy:
-      fail-fast: false
+      fail-fast: 0
       matrix:
         task: [SPECS]
         ruby: [2.6, 2.7, 3.0]
